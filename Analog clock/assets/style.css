@@ -1,0 +1,182 @@
+.clock-dial{
+    height: 500px;
+    width: 500px;
+    border: 20px solid rgb(43, 43, 224);
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.center-dot{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(187, 21, 187);
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+
+}
+
+.numbers{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(187, 21, 187);
+    position: absolute;
+    font-style: italic;
+}
+
+.hour-1{
+    top: 40px;
+    right: 130px;
+}
+
+.hour-2{
+    top: 125px;
+    right: 45px;
+}
+
+.hour-3{
+    top: 235px;
+    right: 15px;
+}
+
+.hour-4{
+    top: 345px;
+    right: 45px;
+}
+
+.hour-5{
+    top: 430px;
+    right: 130px;
+}
+
+.hour-6{
+    bottom: 10px;
+    right: 240px;
+}
+
+.hour-7{
+    top: 430px;
+    left: 130px;
+}
+
+.hour-8{
+    top: 345px;
+    left: 45px
+}
+
+.hour-9{
+    top: 235px;
+    left: 15px;
+}
+
+.hour-10{
+    top: 125px;
+    left: 45px;
+}
+
+.hour-11{
+    top: 40px;
+    right: 360px
+}
+
+.hour-12{
+    top: 10px;
+    left: 235px;
+}
+
+.cl-name{
+    color: rgb(43, 43, 224);
+    position: absolute;
+    top: 130px;
+    right: 190px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.hour-wrapper{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    border-radius: 50%;
+    top: 100px;
+    left: 100px;
+}
+
+.hour{
+    position: relative;
+}
+
+.hour .line{
+    width: 4px;
+    height: 150px;
+    position: absolute;
+    background-color: rgb(187, 21, 187);
+    left: 148px;
+}
+
+.hour .arrow{
+    font-size: 30px;
+    font-weight: bold;
+    transform: rotate(180deg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(187, 21, 187);
+    position: absolute;
+    top: -7px;
+    left: 140px;
+}
+
+.minute-wrapper{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    border-radius: 50%;
+    top: 50px;
+    left: 50px;
+}
+
+.min{
+    position: relative;
+}
+
+.min .line{
+    width: 4px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(187, 21, 187);
+    left: 198px;
+}
+
+.min .arrow{
+    font-size: 30px;
+    font-weight: bold;
+    transform: rotate(180deg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(187, 21, 187);
+    position: absolute;
+    top: -9px;
+    left: 190px;
+}
+
+.second-wrapper{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    border-radius: 50%;
+    top: 75px;
+    left: 75px;
+}
+
+.sec{
+    position: relative;
+}
+
+.sec .line{
+    width: 2px;
+    height: 175px;
+    position: absolute;
+    background-color: rgb(187, 21, 187);
+    left: 174px;
+}
